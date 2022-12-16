@@ -1,0 +1,92 @@
+.bgblue{
+    background-color: #2196F3;
+}
+.column {
+    float: left;
+    width: 27%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .gap{
+    margin-top: 70px;
+  }
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: max-content;
+    align-items: center;
+  }
+  
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .profpic{
+    margin-top: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #afd7f8;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(236, 240, 242, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .email{
+    font-size: 25px
+  }
+  .mobno{
+    font-size: 25px
+  }
